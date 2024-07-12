@@ -49,5 +49,6 @@ namespace Inventory
     public class Inventory
     {
         public List<int> Items = new();
+        public List<int> Equipped = new();
     }
 }

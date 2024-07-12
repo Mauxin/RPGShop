@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Hair_3
+  m_Name: Hair_2
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -233,5 +233,5 @@ SpriteAtlas:
   - char_a_p1_4har_dap1_v01_12
   - char_a_p1_4har_dap1_v01_13
   m_RenderDataMap: {}
-  m_Tag: Hair_3
+  m_Tag: Hair_2
   m_IsVariant: 0

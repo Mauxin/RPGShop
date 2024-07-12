@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc199415ba6344339401ae6f27568d4f, type: 3}
-  m_Name: 2
+  m_Name: Under_2
   m_EditorClassIdentifier: 
-  _id: 2
+  _id: 8
   _type: 0
-  _price: 50
-  _thumbnail: {fileID: 21300000, guid: 3757151fd001a864bb1f65f8f52f10e6, type: 3}
-  _name: NOT POTATO
-  _description: not Potato
-  _animation_key: sad
-  _atlas: {fileID: 0}
+  _price: 0
+  _thumbnail: {fileID: 1103277560, guid: 0d0262901c2de435199f5546372df1f1, type: 3}
+  _name: UNDERWEAR 2
+  _description: ...
+  _animation_key: char_a_p1_1out_undi_v01_
+  _atlas: {fileID: 4343727234628468602, guid: ff1ed7c49906d47bba1ab74359896328, type: 2}

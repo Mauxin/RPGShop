@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc199415ba6344339401ae6f27568d4f, type: 3}
-  m_Name: 2
+  m_Name: Iron_Armor
   m_EditorClassIdentifier: 
-  _id: 2
+  _id: 6
   _type: 0
-  _price: 50
-  _thumbnail: {fileID: 21300000, guid: 3757151fd001a864bb1f65f8f52f10e6, type: 3}
-  _name: NOT POTATO
-  _description: not Potato
-  _animation_key: sad
-  _atlas: {fileID: 0}
+  _price: 0
+  _thumbnail: {fileID: 1277208858, guid: 984bebf5684234fbd99f34c0a58bfc44, type: 3}
+  _name: IRON ARMOR
+  _description: a god forged iron made armor
+  _animation_key: char_a_p1_1out_pfpn_v04_
+  _atlas: {fileID: 4343727234628468602, guid: 66a14def6092b4750816ad739ab9b3da, type: 2}

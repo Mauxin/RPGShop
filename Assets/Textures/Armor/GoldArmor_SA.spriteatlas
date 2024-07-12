@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outfit_2
+  m_Name: GoldArmor_SA
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -233,5 +233,5 @@ SpriteAtlas:
   - char_a_p1_1out_fstr_v04_53
   - char_a_p1_1out_fstr_v04_43
   m_RenderDataMap: {}
-  m_Tag: Outfit_2
+  m_Tag: GoldArmor_SA
   m_IsVariant: 0

@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BronzeArmor_SA
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: e596980c49a1042c99021cced05ff480, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - e596980c49a1042c99021cced05ff480: -1873134525
+    - e596980c49a1042c99021cced05ff480: 1140686444
+    - e596980c49a1042c99021cced05ff480: 1228235398
+    - e596980c49a1042c99021cced05ff480: -952445732
+    - e596980c49a1042c99021cced05ff480: 811925601
+    - e596980c49a1042c99021cced05ff480: 1631143772
+    - e596980c49a1042c99021cced05ff480: 1666509805
+    - e596980c49a1042c99021cced05ff480: 1894417009
+    - e596980c49a1042c99021cced05ff480: -1892414683
+    - e596980c49a1042c99021cced05ff480: -1538195170
+    - e596980c49a1042c99021cced05ff480: -474585683
+    - e596980c49a1042c99021cced05ff480: 439250222
+    - e596980c49a1042c99021cced05ff480: -1486221851
+    - e596980c49a1042c99021cced05ff480: -866245300
+    - e596980c49a1042c99021cced05ff480: 1429717432
+    - e596980c49a1042c99021cced05ff480: 1163115563
+    - e596980c49a1042c99021cced05ff480: 747458237
+    - e596980c49a1042c99021cced05ff480: -765615865
+    - e596980c49a1042c99021cced05ff480: 1823442888
+    - e596980c49a1042c99021cced05ff480: -1138444929
+    - e596980c49a1042c99021cced05ff480: 587570192
+    - e596980c49a1042c99021cced05ff480: 251921267
+    - e596980c49a1042c99021cced05ff480: 1373817285
+    - e596980c49a1042c99021cced05ff480: 1738434668
+    - e596980c49a1042c99021cced05ff480: -338204243
+    - e596980c49a1042c99021cced05ff480: -2094193386
+    - e596980c49a1042c99021cced05ff480: 1912383012
+    - e596980c49a1042c99021cced05ff480: -576306283
+    - e596980c49a1042c99021cced05ff480: 79957639
+    - e596980c49a1042c99021cced05ff480: -906048531
+    - e596980c49a1042c99021cced05ff480: 202625144
+    - e596980c49a1042c99021cced05ff480: 1617990683
+    - e596980c49a1042c99021cced05ff480: 2038125142
+    - e596980c49a1042c99021cced05ff480: 696322470
+    - e596980c49a1042c99021cced05ff480: -1785504256
+    - e596980c49a1042c99021cced05ff480: -894430840
+    - e596980c49a1042c99021cced05ff480: 259143711
+    - e596980c49a1042c99021cced05ff480: 1202823452
+    - e596980c49a1042c99021cced05ff480: 146377713
+    - e596980c49a1042c99021cced05ff480: 711573653
+    - e596980c49a1042c99021cced05ff480: -2025577946
+    - e596980c49a1042c99021cced05ff480: 1646270268
+    - e596980c49a1042c99021cced05ff480: -388307433
+    - e596980c49a1042c99021cced05ff480: 1565770014
+    - e596980c49a1042c99021cced05ff480: 1554277182
+    - e596980c49a1042c99021cced05ff480: -1737053238
+    - e596980c49a1042c99021cced05ff480: 899988916
+    - e596980c49a1042c99021cced05ff480: -1166582231
+    - e596980c49a1042c99021cced05ff480: -388057641
+    - e596980c49a1042c99021cced05ff480: 1744384144
+    - e596980c49a1042c99021cced05ff480: -1987370702
+    - e596980c49a1042c99021cced05ff480: 692462164
+    - e596980c49a1042c99021cced05ff480: 1076187943
+    - e596980c49a1042c99021cced05ff480: 2016425096
+    - e596980c49a1042c99021cced05ff480: -32527954
+    - e596980c49a1042c99021cced05ff480: 678869573
+    - e596980c49a1042c99021cced05ff480: -391927305
+    - e596980c49a1042c99021cced05ff480: 917059138
+    - e596980c49a1042c99021cced05ff480: -1952419738
+    - e596980c49a1042c99021cced05ff480: 900184408
+    - e596980c49a1042c99021cced05ff480: 1909590830
+    - e596980c49a1042c99021cced05ff480: 1147093248
+    - e596980c49a1042c99021cced05ff480: 2099340798
+    - e596980c49a1042c99021cced05ff480: -1643874361
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -1873134525, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1140686444, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1228235398, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -952445732, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 811925601, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1631143772, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1666509805, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1894417009, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -1892414683, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -1538195170, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -474585683, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 439250222, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -1486221851, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -866245300, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1429717432, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1163115563, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 747458237, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -765615865, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1823442888, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -1138444929, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 587570192, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 251921267, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1373817285, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1738434668, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -338204243, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -2094193386, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1912383012, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -576306283, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 79957639, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -906048531, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 202625144, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1617990683, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 2038125142, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 696322470, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -1785504256, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -894430840, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 259143711, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1202823452, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 146377713, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 711573653, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -2025577946, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1646270268, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -388307433, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1565770014, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1554277182, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -1737053238, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 899988916, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -1166582231, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -388057641, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1744384144, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -1987370702, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 692462164, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1076187943, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 2016425096, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -32527954, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 678869573, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -391927305, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 917059138, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -1952419738, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 900184408, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1909590830, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 1147093248, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: 2099340798, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  - {fileID: -1643874361, guid: e596980c49a1042c99021cced05ff480, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - bronze_armor_11
+  - bronze_armor_10
+  - bronze_armor_13
+  - bronze_armor_12
+  - bronze_armor_15
+  - bronze_armor_14
+  - bronze_armor_17
+  - bronze_armor_16
+  - bronze_armor_19
+  - bronze_armor_18
+  - bronze_armor_39
+  - bronze_armor_38
+  - bronze_armor_33
+  - bronze_armor_32
+  - bronze_armor_31
+  - bronze_armor_30
+  - bronze_armor_37
+  - bronze_armor_36
+  - bronze_armor_35
+  - bronze_armor_34
+  - bronze_armor_28
+  - bronze_armor_60
+  - bronze_armor_29
+  - bronze_armor_61
+  - bronze_armor_62
+  - bronze_armor_63
+  - bronze_armor_48
+  - bronze_armor_49
+  - bronze_armor_20
+  - bronze_armor_21
+  - bronze_armor_59
+  - bronze_armor_22
+  - bronze_armor_42
+  - bronze_armor_58
+  - bronze_armor_23
+  - bronze_armor_43
+  - bronze_armor_24
+  - bronze_armor_40
+  - bronze_armor_25
+  - bronze_armor_41
+  - bronze_armor_55
+  - bronze_armor_26
+  - bronze_armor_46
+  - bronze_armor_54
+  - bronze_armor_27
+  - bronze_armor_47
+  - bronze_armor_57
+  - bronze_armor_44
+  - bronze_armor_56
+  - bronze_armor_45
+  - bronze_armor_51
+  - bronze_armor_50
+  - bronze_armor_53
+  - bronze_armor_52
+  - bronze_armor_8
+  - bronze_armor_9
+  - bronze_armor_2
+  - bronze_armor_3
+  - bronze_armor_0
+  - bronze_armor_1
+  - bronze_armor_6
+  - bronze_armor_7
+  - bronze_armor_4
+  - bronze_armor_5
+  m_RenderDataMap: {}
+  m_Tag: BronzeArmor_SA
+  m_IsVariant: 0

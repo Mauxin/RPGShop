@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outfit_3
+  m_Name: IronArmor_SA
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -233,5 +233,5 @@ SpriteAtlas:
   - char_a_p1_1out_pfpn_v04_62
   - char_a_p1_1out_pfpn_v04_63
   m_RenderDataMap: {}
-  m_Tag: Outfit_3
+  m_Tag: IronArmor_SA
   m_IsVariant: 0

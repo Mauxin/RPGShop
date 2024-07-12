@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outfit_1
+  m_Name: Und_1_SA
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -233,5 +233,5 @@ SpriteAtlas:
   - char_a_p1_1out_boxr_v01_19
   - char_a_p1_1out_boxr_v01_18
   m_RenderDataMap: {}
-  m_Tag: Outfit_1
+  m_Tag: Und_1_SA
   m_IsVariant: 0
