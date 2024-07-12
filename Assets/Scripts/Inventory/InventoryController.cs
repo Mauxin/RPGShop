@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 namespace Inventory
@@ -49,11 +48,6 @@ namespace Inventory
     [Serializable]
     public class Inventory
     {
-        public List<int> Items;
-        
-        public Inventory()
-        {
-            Items = new List<int>();
-        }
+        public List<int> Items = new();
     }
 }

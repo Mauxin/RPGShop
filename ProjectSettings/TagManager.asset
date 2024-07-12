@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Hair
+    uniqueID: 3624477329
+    locked: 0
+  - name: Outfit
+    uniqueID: 3086648027
+    locked: 0
+  - name: Items
+    uniqueID: 1849320061
+    locked: 0

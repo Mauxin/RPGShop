@@ -12,62 +12,58 @@ namespace Player
     
     public class PlayerController : MonoBehaviour
     {
-        private const string DirectionAnimationKey = "Direction";
-        private const int PlayerSpeed = 3;
+        [SerializeField] private Rigidbody2D _playerRigidbody;
+        [SerializeField] private Animator _playerAnimator;
         
-        private Rigidbody2D _playerRigidbody;
-        private Animator _playerAnimator;
+        private const string DIRECTION_ANIMATION_KEY = "Direction";
+        private const string IDLE_ANIMATION_KEY = "Idle";
+        private const int PLAYER_SPEED = 3;
         
         private KeyCode _lastKey = KeyCode.Escape;
-        
-        void Start()
-        { 
-            _playerAnimator = GetComponent<Animator>(); 
-            _playerRigidbody = GetComponent<Rigidbody2D>();
-        }
-    
-        void Update()
+
+        private void Update()
         {
             if (Input.GetKey(KeyCode.A))
             {
-                _playerAnimator.speed = 0.5f;
-                _playerRigidbody.velocity = new Vector2(-PlayerSpeed, 0);
+                _playerRigidbody.velocity = new Vector2(-PLAYER_SPEED, 0);
                 
                 if (_lastKey == KeyCode.A) return;
-                _playerAnimator.SetInteger(DirectionAnimationKey, (int) Direction.Left);
+                _playerAnimator.SetInteger(DIRECTION_ANIMATION_KEY, (int) Direction.Left);
+                _playerAnimator.SetBool(IDLE_ANIMATION_KEY, false);
                 _lastKey = KeyCode.A;
             }
             else if (Input.GetKey(KeyCode.D))
             {
-                _playerAnimator.speed = 1;
-                _playerRigidbody.velocity = new Vector2(PlayerSpeed, 0);
+                _playerRigidbody.velocity = new Vector2(PLAYER_SPEED, 0);
 
                 if (_lastKey == KeyCode.D) return;
-                _playerAnimator.SetInteger(DirectionAnimationKey, (int)Direction.Right);
+                _playerAnimator.SetInteger(DIRECTION_ANIMATION_KEY, (int)Direction.Right);
+                _playerAnimator.SetBool(IDLE_ANIMATION_KEY, false);
                 _lastKey = KeyCode.D;
             }
             else if (Input.GetKey(KeyCode.W))
             {
-                _playerAnimator.speed = 1;
-                _playerRigidbody.velocity = new Vector2(0, PlayerSpeed);
+                _playerRigidbody.velocity = new Vector2(0, PLAYER_SPEED);
                 
                 if (_lastKey == KeyCode.W) return;
-                _playerAnimator.SetInteger(DirectionAnimationKey, (int) Direction.Up);
+                _playerAnimator.SetInteger(DIRECTION_ANIMATION_KEY, (int) Direction.Up);
+                _playerAnimator.SetBool(IDLE_ANIMATION_KEY, false);
                 _lastKey = KeyCode.W;
             }
             else if (Input.GetKey(KeyCode.S))
             {
-                _playerAnimator.speed = 1;
-                _playerRigidbody.velocity = new Vector2(0, -PlayerSpeed);
+                _playerRigidbody.velocity = new Vector2(0, -PLAYER_SPEED);
                 
                 if (_lastKey == KeyCode.S) return;
-                _playerAnimator.SetInteger(DirectionAnimationKey, (int) Direction.Down);
+                _playerAnimator.SetInteger(DIRECTION_ANIMATION_KEY, (int) Direction.Down);
+                _playerAnimator.SetBool(IDLE_ANIMATION_KEY, false);
                 _lastKey = KeyCode.S;
             }
             else
             {
+                _playerAnimator.SetBool(IDLE_ANIMATION_KEY, true);
                 _playerRigidbody.velocity = Vector2.zero;
-                _playerAnimator.speed = 0;
+                _lastKey = KeyCode.Escape;
             }  
         }
     }
