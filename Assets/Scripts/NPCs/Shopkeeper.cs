@@ -3,33 +3,18 @@ using UnityEngine;
 
 namespace NPCs
 {
-    public class Shopkeeper : MonoBehaviour
+    public class Shopkeeper : AInteractableNpc
     {
-        [SerializeField] private GameObject _shopkeeperCanvas;
-
         private static readonly Lazy<GameObject> shopScreen =
             new(() => Resources.Load<GameObject>("Prefabs/ShopScreen"));
     
         private GameObject _shopScreen = null;
 
-        private void Update()
+        protected override void Interact()
         {
-            if (_shopkeeperCanvas.gameObject.activeSelf 
-                && Input.GetKeyDown(KeyCode.E) 
-                && _shopScreen == null)
-            {
-                _shopScreen = Instantiate(shopScreen.Value);
-            }
-        }
-
-        private void OnTriggerEnter2D(Collider2D other)
-        {
-            _shopkeeperCanvas.gameObject.SetActive(true);
-        }
-    
-        private void OnTriggerExit2D(Collider2D other)
-        {
-            _shopkeeperCanvas.gameObject.SetActive(false);
+            if (_shopScreen != null) return;
+            
+            _shopScreen = Instantiate(shopScreen.Value);
         }
     }
 }
