@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: 4
   m_EditorClassIdentifier: 
   _id: 4
-  _type: 0
+  _slot: 4
   _price: 50
   _thumbnail: {fileID: 21300000, guid: 45cfe68fb47a8514f96477d0fb432286, type: 3}
   _name: Pickaxe
   _description: Time to mine
+  _animation_key: 
+  _atlas: {fileID: 0}

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc199415ba6344339401ae6f27568d4f, type: 3}
   m_Name: Bronze_Armor
   m_EditorClassIdentifier: 
-  _id: 9
-  _type: 0
+  _id: Bronze_Armor
+  _slot: 3
   _price: 0
   _thumbnail: {fileID: -1952419738, guid: e596980c49a1042c99021cced05ff480, type: 3}
   _name: BRONZE ARMOR

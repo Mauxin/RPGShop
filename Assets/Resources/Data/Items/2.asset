@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 2
   m_EditorClassIdentifier: 
   _id: 2
-  _type: 0
+  _slot: 4
   _price: 50
   _thumbnail: {fileID: 21300000, guid: 3757151fd001a864bb1f65f8f52f10e6, type: 3}
   _name: NOT POTATO

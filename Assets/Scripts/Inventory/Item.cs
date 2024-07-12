@@ -6,8 +6,8 @@ namespace Inventory
     [CreateAssetMenu(menuName = "ScriptableObjects/Items")]
     public class Item : ScriptableObject
     {
-        [SerializeField] private int _id;
-        [SerializeField] private int _type;
+        [SerializeField] private string _id;
+        [SerializeField] private Slot _slot;
         [SerializeField] private int _price;
         [SerializeField] private Sprite _thumbnail;
         [SerializeField] private string _name;
@@ -15,8 +15,8 @@ namespace Inventory
         [SerializeField] private string _animation_key;
         [SerializeField] private SpriteAtlas _atlas;
 
-        public int Id => _id;
-        public int Type => _type;
+        public string Id => _id;
+        public Slot Slot => _slot;
         public int Price => _price;
         public Sprite Thumbnail => _thumbnail;
         public string Name => _name;

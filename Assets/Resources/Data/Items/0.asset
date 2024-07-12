@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: 0
   m_EditorClassIdentifier: 
   _id: 0
-  _type: 0
+  _slot: 4
   _price: 50
   _thumbnail: {fileID: 21300000, guid: f30c689e1cd8caa45a28c4947f382374, type: 3}
   _name: THE ITEM
   _description: A Crazy Beautiful Item
+  _animation_key: 
+  _atlas: {fileID: 0}

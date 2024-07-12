@@ -1,5 +1,8 @@
+using System;
+
 namespace Inventory
 {
+    [Serializable]
     public enum Slot
     {
         Underwear = 0,

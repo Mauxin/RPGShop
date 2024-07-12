@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: 1
   m_EditorClassIdentifier: 
   _id: 1
-  _type: 0
+  _slot: 4
   _price: 50
   _thumbnail: {fileID: 21300000, guid: 14c5c48283a8eeb4098db89eda4a48ff, type: 3}
   _name: POTATO
   _description: potato
+  _animation_key: 
+  _atlas: {fileID: 0}

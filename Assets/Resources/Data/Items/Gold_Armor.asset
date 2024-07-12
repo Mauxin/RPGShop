@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc199415ba6344339401ae6f27568d4f, type: 3}
   m_Name: Gold_Armor
   m_EditorClassIdentifier: 
-  _id: 5
-  _type: 0
+  _id: Gold_Armor
+  _slot: 3
   _price: 0
   _thumbnail: {fileID: 724268069, guid: 5d11e0de341d24e7f9ce4bc6723aba61, type: 3}
   _name: GOLD ARMOR

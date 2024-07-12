@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc199415ba6344339401ae6f27568d4f, type: 3}
   m_Name: Hat_1
   m_EditorClassIdentifier: 
-  _id: 10
-  _type: 0
+  _id: Hat_1
+  _slot: 2
   _price: 0
   _thumbnail: {fileID: 1486487267, guid: 9e4e483cd2e70434fbf825fede34b7d2, type: 3}
   _name: WIG

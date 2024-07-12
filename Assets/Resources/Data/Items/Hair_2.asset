@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc199415ba6344339401ae6f27568d4f, type: 3}
   m_Name: Hair_2
   m_EditorClassIdentifier: 
-  _id: 10
-  _type: 0
+  _id: Hair_2
+  _slot: 1
   _price: 0
   _thumbnail: {fileID: 812678853, guid: 4da5417d8abbc40a1b2d428e3c7c800d, type: 3}
   _name: HAIR 2

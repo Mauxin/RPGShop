@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc199415ba6344339401ae6f27568d4f, type: 3}
   m_Name: Iron_Armor
   m_EditorClassIdentifier: 
-  _id: 6
-  _type: 0
+  _id: Iron_Armor
+  _slot: 3
   _price: 0
   _thumbnail: {fileID: 1277208858, guid: 984bebf5684234fbd99f34c0a58bfc44, type: 3}
   _name: IRON ARMOR

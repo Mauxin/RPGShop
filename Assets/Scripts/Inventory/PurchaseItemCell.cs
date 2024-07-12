@@ -1,3 +1,5 @@
+using UnityEngine;
+
 namespace Inventory
 {
     public class PurchaseItemCell : AItemCell
@@ -10,6 +12,8 @@ namespace Inventory
             
             WalletController.RemoveGold(Item.Price);
             InventoryController.AddItem(Item);
+            InventoryController.EquipItem(Item, Item.Slot);
+            Debug.Log("purchased");
         }
     }
 }

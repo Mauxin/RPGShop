@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ec50f91a30ea4646993eea8d945993d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _item: {fileID: 0}
+  _spriteSlot: 4
   _slotRenderer: {fileID: 6935314869560545975}
   _baseRenderer: {fileID: 4411985912618242715}
 --- !u!1 &3522950809539732208
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ec50f91a30ea4646993eea8d945993d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _item: {fileID: 0}
+  _spriteSlot: 3
   _slotRenderer: {fileID: 2803314259895940281}
   _baseRenderer: {fileID: 4411985912618242715}
 --- !u!1 &4411985912618242717
@@ -497,7 +497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ec50f91a30ea4646993eea8d945993d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _item: {fileID: 0}
+  _spriteSlot: 2
   _slotRenderer: {fileID: 5240738014689936973}
   _baseRenderer: {fileID: 4411985912618242715}
 --- !u!1 &6120012955705643030
@@ -597,7 +597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ec50f91a30ea4646993eea8d945993d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _item: {fileID: 11400000, guid: 33efb10f0092d44ada3b934b2e3435b6, type: 2}
+  _spriteSlot: 0
   _slotRenderer: {fileID: 5754195861263168619}
   _baseRenderer: {fileID: 4411985912618242715}
 --- !u!1 &6615636558837617840
@@ -697,6 +697,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ec50f91a30ea4646993eea8d945993d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _item: {fileID: 0}
+  _spriteSlot: 1
   _slotRenderer: {fileID: 1583992966471241774}
   _baseRenderer: {fileID: 4411985912618242715}
