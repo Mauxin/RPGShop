@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -8,8 +9,10 @@ namespace NPCs
     {
         [SerializeField] TextMeshPro _tipText;
         
+        private const string DEFAULT_TIP = "<color=\"yellow\"><size=0.8><I>(E) To interact</I></size></color>";
+        
         private int _interactCount = 0;
-        private List<string> _tips = new List<string>
+        private readonly List<string> _tips = new List<string>
         {
             "Press <color=\"yellow\"><I>(E)</I></color> to interact with NPCs",
             "Press <color=\"yellow\"><I>(I)</I></color> to open the inventory",
@@ -34,7 +37,7 @@ namespace NPCs
                 _interactCount = 0;
             }
             
-            _tipText.text = _tips[_interactCount];
+            _tipText.text = _tips[_interactCount] + Environment.NewLine + DEFAULT_TIP;
             _interactCount++;
         }
     }
