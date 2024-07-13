@@ -15,10 +15,15 @@ namespace Shop
     
         private void Start()
         {
-            _exitButton.onClick.AddListener(() => { Destroy(this); });
+            _exitButton.onClick.AddListener(closePanel);
             SetupCells();
         }
 
+        private void closePanel()
+        {
+            Destroy(gameObject);
+        }
+        
         private void SetupCells()
         {
             foreach (var itemId in InventoryController.Inventory.Items)
