@@ -21,9 +21,19 @@ namespace ShopUI
             _exitButton.onClick.AddListener(_shopScreenController.OpenWelcomePanel);
             SetupCells();
         }
+        
+        private void OnEnable()
+        {
+            SetupCells();
+        }
 
         private void SetupCells()
         {
+            foreach (Transform child in _itemsRow.transform)
+            {
+                Destroy(child.gameObject);
+            }
+            
             foreach (var itemId in InventoryController.Inventory.Items)
             {
                 var item = InventoryController.GetItem(itemId);
