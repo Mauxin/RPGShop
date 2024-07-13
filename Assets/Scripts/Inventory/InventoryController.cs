@@ -10,10 +10,35 @@ namespace Inventory
         
         public static Inventory Inventory { get; } = ReadFromSaveData();
 
+        #region InventoryItems
+        
         public static bool IsItemOwned(string itemId)
         {
             return Inventory.Items.Contains(itemId);
         }
+    
+        public static Item GetItem(string itemId)
+        {
+            return IsItemOwned(itemId) ? Resources.Load<Item>("Data/Items/" + itemId) : null;
+        }
+    
+        public static void AddItem(Item item)
+        {
+            Inventory.Items.Add(item.Id);
+            WriteToSaveData();
+        }
+    
+        public static void RemoveItem(Item item)
+        {
+            Inventory.Items.Remove(item.Id);
+            Inventory.Equipped.RemoveAll(e => e.ItemId == item.Id);
+            
+            WriteToSaveData();
+        }
+        
+        #endregion InventoryItems
+        
+        #region EquipItems
         
         public static bool IsItemEquipped(string itemId, Slot slot)
         {
@@ -33,33 +58,13 @@ namespace Inventory
             WriteToSaveData();
         }
         
-        public static List<EquipSlot> GetEquippedItems()
-        {
-            return Inventory.Equipped;
-        }
-        
         public static Item GetEquippedItem(Slot slot)
         {
             return !Inventory.Equipped.Exists(e => e.Slot == slot) ?
                 null : Resources.Load<Item>("Data/Items/" + Inventory.Equipped.Find(e => e.Slot == slot).ItemId);
         }
-    
-        public static Item GetItem(string itemId)
-        {
-            return IsItemOwned(itemId) ? Resources.Load<Item>("Data/Items/" + itemId) : null;
-        }
-    
-        public static void AddItem(Item item)
-        {
-            Inventory.Items.Add(item.Id);
-            WriteToSaveData();
-        }
-    
-        public static void RemoveItem(Item item)
-        {
-            Inventory.Items.Remove(item.Id);
-            WriteToSaveData();
-        }
+        
+        #endregion InventoryItems
 
         private static Inventory ReadFromSaveData()
         {
@@ -70,8 +75,7 @@ namespace Inventory
         private static void WriteToSaveData()
         {
             var json = JsonUtility.ToJson(Inventory);
-            Debug.Log(json);
-            PlayerPrefs.SetString(SAVE_DATA_KEY, JsonUtility.ToJson(Inventory));
+            PlayerPrefs.SetString(SAVE_DATA_KEY, json);
             PlayerPrefs.Save();
         }
     }

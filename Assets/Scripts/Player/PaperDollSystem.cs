@@ -1,3 +1,5 @@
+using System;
+using EventSystem;
 using Inventory;
 using UnityEngine;
 
@@ -15,6 +17,41 @@ namespace Player
         private void Start()
         {
             _item = InventoryController.GetEquippedItem(_spriteSlot);
+            EventManager.Subscribe<OnPurchaseItem>(EquipPurchased);
+            EventManager.Subscribe<OnEquipItem>(Equip);
+            EventManager.Subscribe<OnSellItem>(Unequip);
+        }
+
+        private void OnDestroy()
+        {
+            EventManager.Unsubscribe<OnPurchaseItem>(EquipPurchased);
+            EventManager.Unsubscribe<OnSellItem>(Unequip);
+            EventManager.Unsubscribe<OnEquipItem>(Equip);
+        }
+        
+        private void Equip(IEvent eventMessage)
+        {
+            var message = (OnEquipItem) eventMessage;
+            if (message.EquippedItem.Slot != _spriteSlot) return;
+            
+            _item = message.EquippedItem;
+        }
+
+        private void EquipPurchased(IEvent eventMessage)
+        {
+            var message = (OnPurchaseItem) eventMessage;
+            if (message.PurchasedItem.Slot != _spriteSlot) return;
+            
+            _item = message.PurchasedItem;
+        }
+        
+        private void Unequip(IEvent eventMessage)
+        {
+            var message = (OnSellItem) eventMessage;
+            if (message.SoldItem.Slot != _spriteSlot) return;
+            
+            _item = null;
+            _slotRenderer.sprite = null;
         }
         
         private void Update()

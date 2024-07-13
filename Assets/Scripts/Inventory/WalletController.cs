@@ -1,3 +1,4 @@
+using EventSystem;
 using UnityEngine;
 
 namespace Inventory
@@ -10,12 +11,14 @@ namespace Inventory
         public static void AddGold(int amount)
         {
             Gold += amount;
+            EventManager.Trigger(new OnWalletUpdated {Gold = Gold});
             WriteToSaveData();
         }
         
         public static void RemoveGold(int amount)
         {
             Gold -= amount;
+            EventManager.Trigger(new OnWalletUpdated {Gold = Gold});
             WriteToSaveData();
         }
         
@@ -29,5 +32,10 @@ namespace Inventory
             PlayerPrefs.SetInt(SAVE_DATA_KEY, Gold);
             PlayerPrefs.Save();
         }
+    }
+    
+    public class OnWalletUpdated : IEvent
+    {
+        public int Gold { get; set; }
     }
 }

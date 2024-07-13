@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: Hat_1
   _slot: 2
-  _price: 0
+  _price: 20
   _thumbnail: {fileID: 1486487267, guid: 9e4e483cd2e70434fbf825fede34b7d2, type: 3}
   _name: WIG
-  _description: ...
+  _description: Looks Fake
   _animation_key: char_a_p1_5hat_pfht_v04_
   _atlas: {fileID: 4343727234628468602, guid: e43a36cab133c47bc9fc249d2bade8d3, type: 2}

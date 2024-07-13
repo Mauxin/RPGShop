@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: Hair_2
   _slot: 1
-  _price: 0
+  _price: 30
   _thumbnail: {fileID: 812678853, guid: 4da5417d8abbc40a1b2d428e3c7c800d, type: 3}
   _name: HAIR 2
-  _description: ...
+  _description: COOL
   _animation_key: char_a_p1_4har_dap1_v01_
   _atlas: {fileID: 4343727234628468602, guid: 508718ca05ed340f19058b59d92dd83c, type: 2}

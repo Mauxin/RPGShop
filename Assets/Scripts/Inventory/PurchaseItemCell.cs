@@ -1,4 +1,4 @@
-using UnityEngine;
+using EventSystem;
 
 namespace Inventory
 {
@@ -13,7 +13,8 @@ namespace Inventory
             WalletController.RemoveGold(Item.Price);
             InventoryController.AddItem(Item);
             InventoryController.EquipItem(Item, Item.Slot);
-            Debug.Log("purchased");
+            
+            EventManager.Trigger( new OnPurchaseItem {PurchasedItem = Item});
         }
     }
 }

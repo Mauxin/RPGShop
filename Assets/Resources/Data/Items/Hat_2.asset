@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: Hat_2
   _slot: 2
-  _price: 0
+  _price: 40
   _thumbnail: {fileID: -452518132, guid: 60919b479009f4272bdda0736252e533, type: 3}
   _name: HAT
-  _description: ...
+  _description: magical
   _animation_key: char_a_p1_5hat_pnty_v04_
   _atlas: {fileID: 4343727234628468602, guid: c198bae42a3794b3189f03d9a8c9fa05, type: 2}

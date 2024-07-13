@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: PlayerBase
+    uniqueID: 905817599
+    locked: 0
   - name: Underwear
     uniqueID: 1122450591
     locked: 0

@@ -5,20 +5,17 @@ using UnityEngine.UI;
 
 namespace Shop
 {
-    public class SellPanelController : MonoBehaviour
+    public class InventoryPanelController : MonoBehaviour
     {
         [SerializeField] private Button _exitButton;
         [SerializeField] private GameObject _itemsRow;
 
-        private static readonly Lazy<SellItemCell> sellCell =
-            new(() => Resources.Load<SellItemCell>("Prefabs/SellItemCell"));
-        
-        private ShopScreenController _shopScreenController;
-        
+        private static readonly Lazy<InventoryItemCell> inventoryCell =
+            new(() => Resources.Load<InventoryItemCell>("Prefabs/InventoryItemCell"));
+    
         private void Start()
         {
-            _shopScreenController = GetComponentInParent<ShopScreenController>();
-            _exitButton.onClick.AddListener(_shopScreenController.OpenWelcomePanel);
+            _exitButton.onClick.AddListener(() => { Destroy(this); });
             SetupCells();
         }
 
@@ -28,8 +25,8 @@ namespace Shop
             {
                 var item = InventoryController.GetItem(itemId);
                 if (item.Slot == Slot.Underwear) continue;
-                
-                var newItemCell = Instantiate(sellCell.Value, _itemsRow.transform);
+            
+                var newItemCell = Instantiate(inventoryCell.Value, _itemsRow.transform);
                 newItemCell.SetItem(item);
             }
         }

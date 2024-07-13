@@ -1,3 +1,5 @@
+using EventSystem;
+
 namespace Inventory
 {
     public class SellItemCell : AItemCell
@@ -10,6 +12,7 @@ namespace Inventory
             
             WalletController.AddGold(Item.Price);
             InventoryController.RemoveItem(Item);
+            EventManager.Trigger(new OnSellItem{SoldItem = Item});
         }
     }
 }
